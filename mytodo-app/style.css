@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#my-tasks:empty{
+    display: none;
+}
+
+#my-tasks{
+    border:1px solid white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    margin:5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li:hover{
+    color: red;
+    text-decoration: line-through;
+    font-weight: bolder;
+}
